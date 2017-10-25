@@ -1,0 +1,51 @@
+body {
+	background "color" ;
+}
+#root
+ min-height: "px";
+ margin: "px";
+ padding: "px";
+ display: flex;
+ flex-direction: row;
+ article {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+	 margin: "px";
+	 padding: "px";
+	 border: "px" (dotted|dashed|solid|double) "color";
+	 background: "color";
+	 flex: 3 1 60%;
+	 order: 2;
+ }
+ nav {
+	 margin : "px";
+	 padding : "px";
+	 border: "px" (dotted|dashed|solid|double) "color";
+	 background: "color";
+	 flex: 1 6 20%;
+	 order: 1;
+ }
+ aside {
+	 margin : "px";
+	 padding : "px";
+	 border: "px" (dotted|dashed|solid|double) "color";
+	 background: "color";
+	 flex: 1 6 20%;
+	 order: 3;
+ }
+ header, footer {
+	 display: block;
+	 margin : "px";
+	 padding : "px"
+	 min-height: "px";
+	 border: "px" (dotted|dashed|solid|double) "color";
+	 background: "color";
+ }
+ @media all and (max-width: "px") {
+	 #root {
+		 flex-direction: column;
+	 }
+ }
+	 
