@@ -1,10 +1,10 @@
 body {
-	background "color" ;
+	background #32CD32 ;
 }
 #root
- min-height: "px";
- margin: "px";
- padding: "px";
+ min-height: 100px;
+ margin: 50px;
+ padding: 10px;
  display: flex;
  flex-direction: row;
  article {
@@ -12,38 +12,38 @@ body {
 	 flex-direction: column;
 	 align-items: center;
 	 justify-content: center;
-	 margin: "px";
-	 padding: "px";
-	 border: "px" (dotted|dashed|solid|double) "color";
+	 margin: 100px;
+	 padding: 0px;
+	 border: 5px solid "color";
 	 background: "color";
 	 flex: 3 1 60%;
 	 order: 2;
  }
  nav {
-	 margin : "px";
-	 padding : "px";
-	 border: "px" (dotted|dashed|solid|double) "color";
-	 background: "color";
+	 margin : 100px;
+	 padding : 10px;
+	 border: 5px solid #8B0000;
+	 background: #8B0000;
 	 flex: 1 6 20%;
 	 order: 1;
  }
  aside {
-	 margin : "px";
-	 padding : "px";
-	 border: "px" (dotted|dashed|solid|double) "color";
-	 background: "color";
+	 margin : 100px;
+	 padding : 50px;
+	 border: 5px solid #FF1493;
+	 background: #FF1493;
 	 flex: 1 6 20%;
 	 order: 3;
  }
  header, footer {
 	 display: block;
-	 margin : "px";
-	 padding : "px"
-	 min-height: "px";
-	 border: "px" (dotted|dashed|solid|double) "color";
-	 background: "color";
+	 margin : 50px;
+	 padding : 100px;
+	 min-height: 50px;
+	 border: 5px solid #FFA500;
+	 background: #FFA500;
  }
- @media all and (max-width: "px") {
+ @media all and (max-width: 700px) {
 	 #root {
 		 flex-direction: column;
 	 }
